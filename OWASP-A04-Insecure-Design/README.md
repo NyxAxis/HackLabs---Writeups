@@ -12,29 +12,30 @@ Explotar un mecanismo inseguro de recuperación de contraseña basado en pregunt
 
 ----
 
-# Instalación del laboratorio
+## Instalación del laboratorio
 
-Instalar Docker en Kali
-
+```bash
 sudo apt install -y docker.io
+```
 
-# Clonar repositorio
-
-git clone https://github.com/afsh4ck/HackLabs.git
-
+## Clonar repositorio
+```bash
+sudo git clone https://github.com/afsh4ck/HackLabs.git
+```
+```bash
 cd HackLabs
-
+```
 ----
 
-# Desplegar laboratorio
-
+## Desplegar laboratorio
+```bash
 sudo bash deploy.sh
-
+```
 Al iniciar, el laboratorio asigna una IP local para acceder vía navegador:
 
 http://192.168.28.109/
 
-# Análisis del laboratorio
+## Análisis del laboratorio
 
 Se ingresó el usuario:
 
