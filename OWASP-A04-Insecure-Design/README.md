@@ -26,7 +26,7 @@ cd HackLabs
 
 ----
 
-#Desplegar laboratorio
+# Desplegar laboratorio
 
 sudo bash deploy.sh
 
